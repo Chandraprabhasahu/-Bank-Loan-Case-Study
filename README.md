@@ -27,21 +27,27 @@ The main aim of this project is to identify patterns that indicate if a customer
 ## Data Analytics Tasks:
 
 ## A. Identify Missing Data and Deal with it Appropriately:   
-As a data analyst, you come across missing data in the loan application dataset. It is essential to handle missing data effectively to ensure the accuracy of the analysis.  
+As a data analyst, you come across missing data in the loan application dataset. It is essential to handle missing data effectively to ensure the accuracy of the analysis. 
 Task: Identify the missing data in the dataset and decide on an appropriate method to deal with it using Excel built-in functions and features.  
+
 Hint: Utilize Excel functions like COUNT, ISBLANK, and IF to identify missing data. Consider using functions like AVERAGE or MEDIAN for imputation or other appropriate methods available in Excel.  
+
 Graph suggestion: Create a bar chart or column chart to visualize the proportion of missing values for each variable.
 
 ## B. Identify Outliers in the Dataset:  
 Outliers can significantly impact the analysis and distort the results. You need to identify outliers in the loan application dataset.  
 Task: Detect and identify outliers in the dataset using Excel statistical functions and features, focusing on numerical variables.  
+
 Hint: Utilize Excel functions like QUARTILE, IQR, and conditional formatting to identify potential outliers. Consider applying thresholds or business rules to determine if the outliers are valid data points or require further investigation.  
+
 Graph suggestion: Create box plots or scatter plots to visualize the distribution of numerical variables and highlight the outliers.  
 
 ## C. Analyze Data Imbalance:   
 Data imbalance can affect the accuracy of the analysis, especially for binary classification problems. Understanding the data distribution is crucial for building reliable models.  
 Task: Determine if there is data imbalance in the loan application dataset and calculate the ratio of data imbalance using Excel functions.   
+
 Hint: Utilize Excel functions like COUNTIF and SUM to calculate the proportions of each class. Compare the class frequencies to assess data imbalance.  
+
 Graph suggestion: Create a pie chart or bar chart to visualize the distribution of the target variable and highlight the class imbalance.
 
 ## D. Perform Univariate, Segmented Univariate, and Bivariate Analysis:   
