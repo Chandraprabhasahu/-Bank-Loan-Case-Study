@@ -9,7 +9,8 @@ If the applicant can repay the loan but is not approved, the company loses busin
 If the applicant cannot repay the loan and is approved, the company faces a financial loss.
 
 The dataset you'll be working with contains information about loan applications. It includes two types of scenarios:
-Customers with payment difficulties: These are customers who had a late payment of more than X days on at least one of the first Y installments of the loan.  
+
+Customers with payment difficulties: These are customers who had a late payment of more than X days on at least one of the first Y installments of the loan.    
 All other cases: These are cases where the payment was made on time.
 
 ## When a customer applies for a loan, there are four possible outcomes:
@@ -45,14 +46,18 @@ Graph suggestion: Create a pie chart or bar chart to visualize the distribution 
 
 ## D. Perform Univariate, Segmented Univariate, and Bivariate Analysis:   
 To gain insights into the driving factors of loan default, it is important to conduct various analyses on consumer and loan attributes.  
-Task: Perform univariate analysis to understand the distribution of individual variables, segmented univariate analysis to compare variable distributions for different scenarios, and bivariate analysis to explore relationships between variables and the target variable using Excel functions and features.  
-Hint: Utilize Excel functions like COUNT, AVERAGE, MEDIAN, and statistical functions for descriptive analysis. Utilize Excel features like filters, sorting, and pivot tables for segmented and bivariate analysis.  
+Task: Perform univariate analysis to understand the distribution of individual variables, segmented univariate analysis to compare variable distributions for different scenarios, and bivariate analysis to explore relationships between variables and the target variable using Excel functions and features.
+
+Hint: Utilize Excel functions like COUNT, AVERAGE, MEDIAN, and statistical functions for descriptive analysis. Utilize Excel features like filters, sorting, and pivot tables for segmented and bivariate analysis. 
+
 Graph suggestion: Create histograms, bar charts, or box plots to visualize the distributions of variables. Create stacked bar charts or grouped bar charts to compare variable distributions across different scenarios. Create scatter plots or heatmaps to visualize the relationships between variables and the target variable.
 
 ## E. Identify Top Correlations for Different Scenarios:   
 Understanding the correlation between variables and the target variable can provide insights into strong indicators of loan default.  
 Task: Segment the dataset based on different scenarios (e.g., clients with payment difficulties and all other cases) and identify the top correlations for each segmented data using Excel functions.  
+
 Hint: Utilize Excel functions like CORREL to calculate correlation coefficients between variables and the target variable within each segment. Rank the correlations to identify the top indicators of loan default for each scenario.  
+
 Graph suggestion: Create correlation matrices or heatmaps to visualize the correlations between variables within each segment. Highlight the top correlated variables for each scenario using different colors or shading.
 
 
