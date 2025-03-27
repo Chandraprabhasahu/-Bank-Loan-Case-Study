@@ -70,3 +70,12 @@ Graph suggestion: Create correlation matrices or heatmaps to visualize the corre
 ## Dataset
 To access the bank loan case study dataset [Click Here](https://drive.google.com/drive/folders/1VgA3fS_-WRu28jHyD0bU_aVsFg7Mj9nh?usp=sharing)
 
+
+## Excel Sheet Link (Project Work) : 
+
+## To access the 'Bank loan case study sheet'
+[Click Here](https://docs.google.com/spreadsheets/d/1JXkLL-Lp6vWnOs8PQaBRehvZE58gmacC/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
+
+
+## To access the 'Previous application_univariate analysis sheet' (Secondary file for task D)
+[Click Here](https://docs.google.com/spreadsheets/d/1heXdUQ98DqtKWD3BzHqHyL36EY0BFlr3/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
