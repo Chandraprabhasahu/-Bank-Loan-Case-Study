@@ -1,82 +1,111 @@
-# Bank-Loan-Case-Study
+# Bank Loan Analysis
 
 
-## Excel Sheet Link (Project Work) : 
+## Project Overview
 
-## To access the 'Bank Loan Analysis Excel Sheet'
-[Click Here](https://docs.google.com/spreadsheets/d/1JXkLL-Lp6vWnOs8PQaBRehvZE58gmacC/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
+In this project, assume the role of a data analyst at a finance company that lends various types of loans to urban customers. A significant challenge for the company lies in identifying customers with insufficient credit history who may default on their loans. The goal is to use Exploratory Data Analysis (EDA) to identify risk patterns and ensure that capable applicants are not rejected while minimizing the financial loss from defaulters.
 
-
-## To access the 'Previous application_univariate analysis excel sheet' (additional sheet used in the Bank Loan Analysis)
-[Click Here](https://docs.google.com/spreadsheets/d/1heXdUQ98DqtKWD3BzHqHyL36EY0BFlr3/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
-
-
-## Project Description
-Imagine you're a data analyst at a finance company that specializes in lending various types of loans to urban customers. Your company faces a challenge: some customers who don't have a sufficient credit history take advantage of this and default on their loans. Your task is to use Exploratory Data Analysis (EDA) to analyze patterns in the data and ensure that capable applicants are not rejected.
-
-## When a customer applies for a loan, your company faces two risks:
-
-If the applicant can repay the loan but is not approved, the company loses business.
-
-If the applicant cannot repay the loan and is approved, the company faces a financial loss.
-
-The dataset you'll be working with contains information about loan applications. It includes two types of scenarios:
-
-Customers with payment difficulties: These are customers who had a late payment of more than X days on at least one of the first Y installments of the loan.    
-All other cases: These are cases where the payment was made on time.
-
-## When a customer applies for a loan, there are four possible outcomes:
-Approved: The company has approved the loan application.  
-Cancelled: The customer cancelled the application during the approval process.  
-Refused: The company rejected the loan.  
-Unused Offer: The loan was approved but the customer did not use it.  
+##  Project Files
+-  [Download Loan Analysis Workbook](https://docs.google.com/spreadsheets/d/1JXkLL-Lp6vWnOs8PQaBRehvZE58gmacC/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
+- [Additional file used in the bank loan analysis project](https://docs.google.com/spreadsheets/d/1heXdUQ98DqtKWD3BzHqHyL36EY0BFlr3/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
 
 
-## Business Objectives:
-The main aim of this project is to identify patterns that indicate if a customer will have difficulty paying their installments. This information can be used to make decisions such as denying the loan, reducing the amount of loan, or lending at a higher interest rate to risky applicants. The company wants to understand the key factors behind loan default so it can make better decisions about loan approval.
+### When a customer applies for a loan,  company faces two risks:
+
+- If the applicant can repay the loan but is not approved, the company loses business.
+
+- If the applicant cannot repay the loan and is approved, the company faces a financial loss.
 
 
-## Data Analytics Tasks:
+##  Business Objectives
+- Identify customers likely to face difficulty in paying loan installments.
+- Prevent rejection of creditworthy applicants.
+- Minimize approval of applicants who may default.
+- Provide actionable insights to guide decisions on loan approval, loan amount adjustment, or interest rate modifications.
 
-## A. Identify Missing Data and Deal with it Appropriately:   
-As a data analyst, you come across missing data in the loan application dataset. It is essential to handle missing data effectively to ensure the accuracy of the analysis. 
-Task: Identify the missing data in the dataset and decide on an appropriate method to deal with it using Excel built-in functions and features.  
+##  Dataset Description
+The dataset includes information about loan applications, categorized into the following outcomes:
+- **Approved:** Loan application approved by the company.
+- **Cancelled:** Application cancelled by the customer.
+- **Refused:** Application rejected by the company.
+- **Unused Offer:** Loan approved but not utilized by the customer.
 
-Hint: Utilize Excel functions like COUNT, ISBLANK, and IF to identify missing data. Consider using functions like AVERAGE or MEDIAN for imputation or other appropriate methods available in Excel.  
+### Key Scenarios:
+- **Payment Difficulties:** Customers with late payment of over X days on at least one of the first Y installments.
+- **All Others:** Customers with timely payment history.
 
-Graph suggestion: Create a bar chart or column chart to visualize the proportion of missing values for each variable.
+##  Data Analysis Tasks
 
-## B. Identify Outliers in the Dataset:  
-Outliers can significantly impact the analysis and distort the results. You need to identify outliers in the loan application dataset.  
-Task: Detect and identify outliers in the dataset using Excel statistical functions and features, focusing on numerical variables.  
+### A. Identify and Handle Missing Data
+- **Task:** Detect missing values using Excel functions such as `COUNT`, `ISBLANK`, `IF`.
+- **Action:** Use imputation techniques like `AVERAGE`, `MEDIAN` or deletion based on severity.
+- **Visualization:** Bar chart/column chart to show the percentage of missing values per variable.
 
-Hint: Utilize Excel functions like QUARTILE, IQR, and conditional formatting to identify potential outliers. Consider applying thresholds or business rules to determine if the outliers are valid data points or require further investigation.  
+### B. Detect Outliers in the Dataset
+- **Task:** Use Excel statistical functions such as `QUARTILE`, `IQR` and conditional formatting to find outliers.
+- **Action:** Assess business logic to determine whether to retain, transform, or remove outliers.
+- **Visualization:** Box plots or scatter plots to highlight outlier distribution across variables.
 
-Graph suggestion: Create box plots or scatter plots to visualize the distribution of numerical variables and highlight the outliers.  
+### C. Analyze Data Imbalance
+- **Task:** Determine distribution of classes using `COUNTIF`, `SUM`.
+- **Action:** Calculate class ratio to assess imbalance in the target variable.
+- **Visualization:** Pie chart or bar chart showing frequency of each class (e.g., defaulters vs non-defaulters).
 
-## C. Analyze Data Imbalance:   
-Data imbalance can affect the accuracy of the analysis, especially for binary classification problems. Understanding the data distribution is crucial for building reliable models.  
-Task: Determine if there is data imbalance in the loan application dataset and calculate the ratio of data imbalance using Excel functions.   
+### D. Univariate, Segmented Univariate & Bivariate Analysis
+- **Univariate Analysis:** Examine the distribution of single variables using `COUNT`, `AVERAGE`, etc.
+- **Segmented Univariate Analysis:** Compare variable distributions between defaulters and non-defaulters using filters/pivot tables.
+- **Bivariate Analysis:** Explore relationships between variables using scatter plots, cross-tabs, and pivot tables.
+- **Visualization:** Histograms, stacked/grouped bar charts, box plots, heatmaps.
 
-Hint: Utilize Excel functions like COUNTIF and SUM to calculate the proportions of each class. Compare the class frequencies to assess data imbalance.  
+### E. Identify Top Correlations for Each Scenario
+- **Task:** Segment data by scenario (e.g., with/without payment difficulties) and calculate correlations.
+- **Action:** Use Excel's `CORREL` function to identify variables with highest correlation to loan default.
+- **Visualization:** Correlation matrices/heatmaps with highlights for top variables.
 
-Graph suggestion: Create a pie chart or bar chart to visualize the distribution of the target variable and highlight the class imbalance.
+##  Tools & Technologies Used
+- **Tool:** Microsoft Excel
+- **Techniques:** EDA, Data Cleaning, Outlier Detection, Correlation Analysis, Visualization
 
-## D. Perform Univariate, Segmented Univariate, and Bivariate Analysis:   
-To gain insights into the driving factors of loan default, it is important to conduct various analyses on consumer and loan attributes.  
-Task: Perform univariate analysis to understand the distribution of individual variables, segmented univariate analysis to compare variable distributions for different scenarios, and bivariate analysis to explore relationships between variables and the target variable using Excel functions and features.
+##  Key Insights
+- Identified variables with the highest impact on loan defaults.
+- Determined periods with higher payment difficulties.
+- Found significant data imbalance requiring mitigation.
+- Proposed data-driven decision rules for loan approval strategies.
 
-Hint: Utilize Excel functions like COUNT, AVERAGE, MEDIAN, and statistical functions for descriptive analysis. Utilize Excel features like filters, sorting, and pivot tables for segmented and bivariate analysis. 
+##  Outcomes
+- Improved understanding of credit risk patterns.
+- Recommendations to avoid financial losses due to defaults.
+- Insights to enhance the loan evaluation framework.
 
-Graph suggestion: Create histograms, bar charts, or box plots to visualize the distributions of variables. Create stacked bar charts or grouped bar charts to compare variable distributions across different scenarios. Create scatter plots or heatmaps to visualize the relationships between variables and the target variable.
+##  Learnings
+- Hands-on experience with Excel for handling real-world financial datasets.
+- Developed a robust EDA pipeline for credit risk analysis.
+- Strengthened skills in outlier detection, missing value treatment, and correlation analysis.
 
-## E. Identify Top Correlations for Different Scenarios:   
-Understanding the correlation between variables and the target variable can provide insights into strong indicators of loan default.  
-Task: Segment the dataset based on different scenarios (e.g., clients with payment difficulties and all other cases) and identify the top correlations for each segmented data using Excel functions.  
+##  Project Structure
+```
+Bank-Loan-Analysis/
+├── Dataset/
+│   └── loan_applications.csv
+├── Excel_Analysis/
+│   ├── Missing_Data_Analysis.xlsx
+│   ├── Outlier_Analysis.xlsx
+│   ├── Univariate_Bivariate_Analysis.xlsx
+│   └── Correlation_Analysis.xlsx
+├── Visualizations/
+│   ├── Missing_Values_Bar_Chart.png
+│   ├── Outliers_Box_Plot.png
+│   ├── Data_Imbalance_Pie_Chart.png
+│   └── Correlation_Heatmap.png
+└── README.md
+```
 
-Hint: Utilize Excel functions like CORREL to calculate correlation coefficients between variables and the target variable within each segment. Rank the correlations to identify the top indicators of loan default for each scenario.  
+##  Conclusion
+This Bank Loan Analysis project offers critical insights into customer loan behavior using Excel-based exploratory analysis. By identifying risk patterns, data imbalance, outliers, and strong correlations, the analysis supports better, data-driven decisions in loan approvals and credit risk management.
 
-Graph suggestion: Create correlation matrices or heatmaps to visualize the correlations between variables within each segment. Highlight the top correlated variables for each scenario using different colors or shading.
+---
+
+
 
 
 ## Dataset
