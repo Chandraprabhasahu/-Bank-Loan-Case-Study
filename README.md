@@ -7,23 +7,24 @@ In this project, assume the role of a data analyst at a finance company that len
 
 ##  Project Files
 -  [Download Loan Analysis Workbook](https://docs.google.com/spreadsheets/d/1JXkLL-Lp6vWnOs8PQaBRehvZE58gmacC/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
-- [Additional file used in the bank loan analysis project](https://docs.google.com/spreadsheets/d/1heXdUQ98DqtKWD3BzHqHyL36EY0BFlr3/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
+-  [Download additional workbook_previous application data](https://docs.google.com/spreadsheets/d/1heXdUQ98DqtKWD3BzHqHyL36EY0BFlr3/edit?usp=sharing&ouid=109009397325426290832&rtpof=true&sd=true)
 
 
-### When a customer applies for a loan,  company faces two risks:
+## Dataset
+This project utilizes two key datasets:
 
-- If the applicant can repay the loan but is not approved, the company loses business.
+1. Application Data
+Contains information about each loan application including applicant demographics, financial data, and loan status.
+File name: application.csv
 
-- If the applicant cannot repay the loan and is approved, the company faces a financial loss.
+2. Previous Application Data
+Includes historical data of applicants’ past loan applications. Helps in understanding payment behavior and patterns of loan default.
+File name: previous_application.csv
 
+### Download the dataset files directly from the source below:
+- [Dataset Source](https://drive.google.com/drive/folders/1VgA3fS_-WRu28jHyD0bU_aVsFg7Mj9nh?usp=sharing)
+  
 
-##  Business Objectives
-- Identify customers likely to face difficulty in paying loan installments.
-- Prevent rejection of creditworthy applicants.
-- Minimize approval of applicants who may default.
-- Provide actionable insights to guide decisions on loan approval, loan amount adjustment, or interest rate modifications.
-
-##  Dataset Description
 The dataset includes information about loan applications, categorized into the following outcomes:
 - **Approved:** Loan application approved by the company.
 - **Cancelled:** Application cancelled by the customer.
@@ -33,6 +34,13 @@ The dataset includes information about loan applications, categorized into the f
 ### Key Scenarios:
 - **Payment Difficulties:** Customers with late payment of over X days on at least one of the first Y installments.
 - **All Others:** Customers with timely payment history.
+  
+##  Business Objectives
+- Identify customers likely to face difficulty in paying loan installments.
+- Prevent rejection of creditworthy applicants.
+- Minimize approval of applicants who may default.
+- Provide actionable insights to guide decisions on loan approval, loan amount adjustment, or interest rate modifications.
+
 
 ##  Data Analysis Tasks
 
@@ -107,9 +115,6 @@ This Bank Loan Analysis project offers critical insights into customer loan beha
 
 
 
-
-## Dataset
-To access the bank loan case study dataset [Click Here](https://drive.google.com/drive/folders/1VgA3fS_-WRu28jHyD0bU_aVsFg7Mj9nh?usp=sharing)
 
 
 
