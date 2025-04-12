@@ -17,7 +17,7 @@ This project utilizes two key datasets:
 Contains information about each loan application including applicant demographics, financial data, and loan status.
 File name: application.csv
 
-2. Previous Application Data
+3. Previous Application Data
 Includes historical data of applicants’ past loan applications. Helps in understanding payment behavior and patterns of loan default.
 File name: previous_application.csv
 
